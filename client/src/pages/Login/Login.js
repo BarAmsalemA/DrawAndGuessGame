@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 
 import "./Login.css";
-import { socketService } from "../../services/socketService";
+import socketService from "../../services/socketService";
 
 const Login = () => {
 

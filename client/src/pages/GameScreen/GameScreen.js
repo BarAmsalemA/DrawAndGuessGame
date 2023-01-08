@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { socketService } from "../../services/socketService";
+import socketService from "../../services/socketService";
 import DrawingView from "../../components/DrawingView/DrawingView";
 import GuessingView from "../../components/GuessingView/GuessingView";
 import WaitingRoom from "../../components/WaitingRoom/WaitingRoom";
