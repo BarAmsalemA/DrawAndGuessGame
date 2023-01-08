@@ -1,7 +1,7 @@
 import io from "socket.io-client";
 let socket = null;
 console.log("socket changed?");
-export const socketService = {
+export default socketService = {
   on,
   emit,
   terminate,
