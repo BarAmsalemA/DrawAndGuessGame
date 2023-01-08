@@ -1,0 +1,60 @@
+.game-screen-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.success-popup {
+  height: 15rem;
+  width: 15rem;
+  border: 3px solid black;
+  color: rgb(0, 41, 128);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.success-close,
+.end-game {
+  background-color: red;
+  color: white;
+  padding: 0.1rem 0.3rem;
+  margin: 0.4rem;
+  border: 1px solid white;
+  font-size: 1rem;
+  border-radius: 0.6rem;
+  border: none;
+}
+
+.success-close {
+  background-color: blue;
+}
+
+.success-close:hover {
+  background-color: white;
+  color: red;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-points {
+  margin-left: 0.3rem;
+}
+
+.second-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+}

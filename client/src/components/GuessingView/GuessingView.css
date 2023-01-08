@@ -1,0 +1,31 @@
+.guessing-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guessing-container-btn {
+  border-radius: 1rem;
+  width: 5.5rem;
+  background-color: rgb(17, 0, 255);
+  color: white;
+  border: none;
+  padding: 0.2rem 0.6rem;
+  font-size: 1.2rem;
+
+}
+
+button:active {
+  transform: translateY(0.1rem);
+}
+
+.guessing-container-input {
+  border-radius: 1rem;
+  margin: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+}
+

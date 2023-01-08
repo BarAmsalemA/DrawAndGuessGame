@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+drawing-view-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.word-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  width: 100%;
+}
+
+.word {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+.canvas-tools {
+  display: flex;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.canvas-tool-item {
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.canvas-tool-item input,
+.canvas-tool-item button {
+  width: 1.7rem;
+  font-size: 0.7rem;
+}
+
+.btn {
+  height: 15px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 70%;
+  border: none;
+  margin: 0.1rem;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-black {
+  background-color: black;
+}
+
+.icon {
+  width: 100%;
+}
+
+.sortable-handler {
+  touch-action: none;
+}
+
+.bi-eraser::before {
+  font-size: 30px;
+}
